@@ -23,17 +23,24 @@
 
     <style name="Theme.Envoy.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
-    <style name="Theme.Envoy.Fullscreen" parent="Theme.AppCompat.Light.NoActionBar">
-        <item name="android:actionBarStyle">@style/Widget.Theme.Envoy.ActionBar.Fullscreen</item>
-        <item name="android:windowActionBar">false</item>
-        <item name="android:windowActionBarOverlay">true</item>
-        <item name="android:windowBackground">@null</item>
+    <style name="Theme.Envoy.Fullscreen" parent="Theme.AppCompat.Light">
+<!--        <item name="android:actionBarStyle">@style/Widget.Theme.Envoy.ActionBar.Fullscreen</item>-->
+<!--        <item name="android:windowActionBar">true</item>-->
+<!--        <item name="android:windowActionBarOverlay">true</item>-->
+<!--        <item name="android:windowBackground">@null</item>-->
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowFullscreen">true</item>
-    </style>
-
-    <style name="ThemeOverlay.Envoy.FullscreenContainer" parent="" >
         <item name="fullscreenBackgroundColor">@color/light_blue_600</item>
         <item name="fullscreenTextColor">@color/light_blue_A200</item>
     </style>
+
+<!--    <style name="ThemeOverlay.Envoy.FullscreenContainer" parent="" >-->
+<!--        <item name="fullscreenBackgroundColor">@color/light_blue_600</item>-->
+<!--        <item name="fullscreenTextColor">@color/light_blue_A200</item>-->
+<!--&lt;!&ndash;        <item name="android:actionBarStyle">@style/Widget.Theme.Envoy.ActionBar.Fullscreen</item>&ndash;&gt;-->
+<!--        <item name="android:windowActionBar">true</item>-->
+<!--        <item name="android:windowActionBarOverlay">true</item>-->
+<!--        <item name="android:windowNoTitle">false</item>-->
+<!--        <item name="android:windowFullscreen">false</item>-->
+<!--    </style>-->
 </resources>

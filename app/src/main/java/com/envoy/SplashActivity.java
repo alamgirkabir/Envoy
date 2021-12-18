@@ -1,4 +1,4 @@
-package com.envoy.ui;
+package com.envoy;
 
 import android.annotation.SuppressLint;
 
@@ -14,8 +14,8 @@ import android.view.View;
 import android.view.Window;
 import android.view.WindowInsets;
 
-import com.envoy.MainActivity;
 import com.envoy.databinding.ActivitySplashBinding;
+import com.envoy.ui.login.LoginActivity;
 
 
 /**
@@ -120,7 +120,8 @@ public class SplashActivity extends AppCompatActivity {
         new Handler().postDelayed(new Runnable(){
             @Override
             public void run(){
-                Intent intent = new Intent(SplashActivity.this, MainActivity.class);
+                Intent intent = new Intent(SplashActivity.this, LoginActivity.class);
+//                Intent intent = new Intent(SplashActivity.this, MainActivity.class);
                 startActivity(intent);
                 finish();
             }
