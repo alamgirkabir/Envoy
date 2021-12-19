@@ -3,23 +3,51 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/nav_home">
+    app:startDestination="@+id/nav_dashboard">
 
     <fragment
-        android:id="@+id/nav_home"
-        android:name="com.envoy.ui.home.HomeFragment"
-        android:label="@string/menu_home"
-        tools:layout="@layout/fragment_home" />
-
+        android:id="@+id/nav_dashboard"
+        android:name="com.envoy.ui.dashboard.DashboardFragment"
+        android:label="@string/menu_dashboard"
+        tools:layout="@layout/dashboard_fragment" />
     <fragment
-        android:id="@+id/nav_gallery"
-        android:name="com.envoy.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
-
+        android:id="@+id/nav_template"
+        android:name="com.envoy.ui.template.TemplateFragment"
+        android:label="@string/menu_template"
+        tools:layout="@layout/template_fragment" />
     <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.envoy.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:id="@+id/nav_contact"
+        android:name="com.envoy.ui.contact.ContactFragment"
+        android:label="@string/menu_contact"
+        tools:layout="@layout/contact_fragment" />
+    <fragment
+        android:id="@+id/nav_autoresponder"
+        android:name="com.envoy.ui.autoresponder.AutoResponderFragment"
+        android:label="@string/menu_autoresponder"
+        tools:layout="@layout/auto_responder_fragment" />
+    <fragment
+        android:id="@+id/nav_message"
+        android:name="com.envoy.ui.message.MessageFragment"
+        android:label="@string/menu_message"
+        tools:layout="@layout/message_fragment" />
+    <fragment
+        android:id="@+id/nav_sender"
+        android:name="com.envoy.ui.sender.SenderFragment"
+        android:label="@string/menu_sender"
+        tools:layout="@layout/sender_fragment" />
+    <fragment
+        android:id="@+id/nav_ussd"
+        android:name="com.envoy.ui.ussd.UssdFragment"
+        android:label="@string/menu_ussd"
+        tools:layout="@layout/ussd_fragment" />
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.envoy.ui.profile.ProfileFragment"
+        android:label="@string/menu_profile"
+        tools:layout="@layout/profile_fragment" />
+    <fragment
+        android:id="@+id/nav_device"
+        android:name="com.envoy.ui.device.DeviceFragment"
+        android:label="@string/menu_device"
+        tools:layout="@layout/device_fragment" />
 </navigation>

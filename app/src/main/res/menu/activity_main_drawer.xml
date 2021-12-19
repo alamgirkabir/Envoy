@@ -5,16 +5,40 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_home"
+            android:id="@+id/nav_dashboard"
             android:icon="@drawable/ic_menu_camera"
-            android:title="@string/menu_home" />
+            android:title="@string/menu_dashboard" />
         <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="@string/menu_gallery" />
+            android:id="@+id/nav_template"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_template" />
         <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menu_slideshow" />
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_contact" />
+        <item
+            android:id="@+id/nav_autoresponder"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_autoresponder" />
+        <item
+            android:id="@+id/nav_message"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_message" />
+        <item
+            android:id="@+id/nav_sender"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_sender" />
+        <item
+            android:id="@+id/nav_ussd"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_ussd" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_profile" />
+        <item
+            android:id="@+id/nav_device"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_device" />
     </group>
 </menu>

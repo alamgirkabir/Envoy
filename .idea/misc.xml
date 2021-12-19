@@ -13,8 +13,19 @@
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.19322916666666667" />
         <entry key="app/src/main/res/layout/activity_splash.xml" value="0.1" />
         <entry key="app/src/main/res/layout/app_bar_main.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/auto_responder_fragment.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/contact_fragment.xml" value="0.1" />
         <entry key="app/src/main/res/layout/content_main.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/dashboard_fragment.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/device_fragment.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_gallery.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/message_fragment.xml" value="0.1" />
         <entry key="app/src/main/res/layout/nav_header_main.xml" value="0.19322916666666667" />
+        <entry key="app/src/main/res/layout/profile_fragment.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/sender_fragment.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/template_fragment.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/ussd_fragment.xml" value="0.1" />
         <entry key="app/src/main/res/menu/activity_main_drawer.xml" value="0.1" />
         <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1359375" />
         <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1359375" />

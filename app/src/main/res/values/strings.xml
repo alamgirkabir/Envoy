@@ -23,4 +23,13 @@
     <string name="invalid_username">Not a valid username</string>
     <string name="invalid_password">Password must be >5 characters</string>
     <string name="login_failed">"Login failed"</string>
+    <string name="menu_dashboard">Dashboard</string>
+    <string name="menu_template">Templates</string>
+    <string name="menu_contact">Contacts</string>
+    <string name="menu_autoresponder">Auto Responder</string>
+    <string name="menu_message">Messages</string>
+    <string name="menu_sender">Sender</string>
+    <string name="menu_ussd">USSD</string>
+    <string name="menu_profile">Profile</string>
+    <string name="menu_device">Device</string>
 </resources>
