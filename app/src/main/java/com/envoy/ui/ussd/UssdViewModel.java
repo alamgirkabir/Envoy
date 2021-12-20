@@ -13,7 +13,7 @@ public class UssdViewModel extends ViewModel {
 
     public UssdViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is gallery fragment");
+        mText.setValue("This is Ussd fragment");
     }
 
     public LiveData<String> getText() {

@@ -10,7 +10,7 @@ public class AutoResponderViewModel extends ViewModel {
 
     public AutoResponderViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is gallery fragment");
+        mText.setValue("This is Auto Responser fragment");
     }
 
     public LiveData<String> getText() {
