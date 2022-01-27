@@ -11,7 +11,7 @@ public class SenderViewModel extends ViewModel {
 
     public SenderViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is Sender fragment");
+//        mText.setValue("This is Sender fragment");
     }
 
     public LiveData<String> getText() {
