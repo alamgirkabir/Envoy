@@ -44,7 +44,11 @@ public class SenderFragment extends Fragment {
 
         final TextView textView = binding.textView8;
         final Spinner spinnerDeviceNames = binding.spinnerDeviceNames;
+        final Spinner spinnerPrioritize = binding.spinnerPrioritize;
 
+        /**
+         * Data adapter for spinner device names
+         */
         List<String> categories = new ArrayList<>();
         categories.add("Automobile");
         categories.add("Business Services");
@@ -53,10 +57,24 @@ public class SenderFragment extends Fragment {
         categories.add("Personal");
         categories.add("Travel");
 
-        ArrayAdapter<String> dataAdapter = new ArrayAdapter<String>(this.getContext(), android.R.layout.simple_spinner_item, categories);
+        ArrayAdapter<String> spinnerDeviceNamesDataAdapter = new ArrayAdapter<String>(this.getContext(), android.R.layout.simple_spinner_item, categories);
+        spinnerDeviceNames.setAdapter(spinnerDeviceNamesDataAdapter);
+        /**
+         * Device names data end
+         */
 
-        spinnerDeviceNames.setAdapter(dataAdapter);
+        /**
+         * Data adapter for spinner prioritize
+         */
+        List<String> prioritizeFlagItems = new ArrayList<>();
+        prioritizeFlagItems.add("Yes");
+        prioritizeFlagItems.add("No");
 
+        ArrayAdapter<String> spinnerPrioritizeDataAdapter = new ArrayAdapter<String>(this.getContext(), android.R.layout.simple_spinner_item, prioritizeFlagItems);
+        spinnerPrioritize.setAdapter(spinnerPrioritizeDataAdapter);
+        /**
+         * Device names data end
+         */
 
         mViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
             @Override

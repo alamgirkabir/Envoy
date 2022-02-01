@@ -5,11 +5,12 @@
     android:layout_height="match_parent"
     android:layout_width="match_parent"
     tools:context=".ui.sender.SenderFragment">
+
     <LinearLayout
         android:id="@+id/frameLayout7"
-        android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
 
         <androidx.constraintlayout.widget.ConstraintLayout
@@ -68,15 +69,18 @@
                 android:layout_height="match_parent"
                 android:layout_marginTop="150dp"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"/>
+                app:layout_constraintTop_toTopOf="parent" />
+
         </androidx.constraintlayout.widget.ConstraintLayout>
+
+
 
         <TextView
             android:id="@+id/textView8"
             android:layout_width="match_parent"
             android:layout_height="47dp"
             android:text="Mobile Numbers"
-            android:textSize="26sp"/>
+            android:textSize="26sp" />
 
         <EditText
             android:id="@+id/editTextTextPersonName"
@@ -91,7 +95,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Schedule"
-            android:textSize="15sp"/>
+            android:textSize="15sp" />
 
         <EditText
             android:id="@+id/scheduleText"
@@ -105,14 +109,18 @@
             android:layout_width="match_parent"
             android:layout_height="47dp"
             android:text="Prioritize"
-            android:textSize="26sp"/>
+            android:textSize="26sp" />
+        <Spinner
+            android:id="@+id/spinnerPrioritize"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
 
         <TextView
             android:id="@+id/textView11"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Message"
-            android:textSize="26sp"/>
+            android:textSize="26sp" />
 
         <EditText
             android:layout_width="match_parent"
@@ -131,9 +139,9 @@
             android:id="@+id/textView13"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:paddingTop="10sp"
             android:text="Send Multiple Messages [Download example file]"
-            android:textSize="20sp"
-            android:paddingTop="10sp"/>
+            android:textSize="20sp" />
 
 
     </LinearLayout>
