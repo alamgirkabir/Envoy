@@ -14,7 +14,7 @@
         android:layout_height="wrap_content">
 
         <TextView
-            android:id="@+id/textView8"
+            android:id="@+id/textView0"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/sender"
@@ -52,6 +52,7 @@
             app:layout_constraintTop_toBottomOf="@+id/textView1" />
 
         <ImageButton
+            android:id="@+id/button2"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:src="@drawable/ic_minus"
@@ -68,7 +69,7 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <TextView
-        android:id="@+id/textView11"
+        android:id="@+id/textView8"
         android:layout_width="match_parent"
         android:layout_height="47dp"
         android:text="Mobile Numbers"
@@ -88,13 +89,77 @@
         android:layout_height="wrap_content"
         android:text="Schedule"
         android:textSize="15sp"/>
+
     <EditText
         android:id="@+id/scheduleText"
         android:layout_width="match_parent"
         android:layout_height="74dp"
         android:ems="10"
-        android:inputType="datetime"/>
+        android:inputType="datetime" />
 
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:text="Prioritize"
+        android:textSize="26sp"/>
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Message"
+        android:textSize="26sp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="119dp"
+        android:layout_marginTop="2sp"
+        android:inputType="text"
+        android:text="Message" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="126dp"
+        android:layout_height="wrap_content"
+        android:text="Send" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send Multiple Messages [Download example file]"
+        android:textSize="20sp"
+        android:paddingTop="10sp"/>
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2sp"
+        android:paddingBottom="10sp"
+        android:text="@string/inside_body"
+        android:textSize="20sp" />
+
+    <ImageButton
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80sp"
+        android:layout_marginTop="10sp"
+        android:src="@drawable/ic_plus"
+        app:layout_constraintStart_toEndOf="@+id/textView14"
+        app:layout_constraintTop_toBottomOf="@+id/textView1" />
+
+    <ImageButton
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/ic_minus"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView14" />
 
 
 </LinearLayout>

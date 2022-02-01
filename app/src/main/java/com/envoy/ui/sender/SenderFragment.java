@@ -57,6 +57,7 @@ public class SenderFragment extends Fragment {
 
         spinnerDeviceNames.setAdapter(dataAdapter);
 
+
         mViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
             @Override
             public void onChanged(@Nullable String s) {
@@ -66,6 +67,7 @@ public class SenderFragment extends Fragment {
 
         return root;
     }
+
 
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
