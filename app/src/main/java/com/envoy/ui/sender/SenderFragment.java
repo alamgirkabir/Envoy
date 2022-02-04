@@ -13,6 +13,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.AutoCompleteTextView;
 import android.widget.Spinner;
 import android.widget.TextView;
 
@@ -20,6 +21,7 @@ import com.envoy.R;
 import com.envoy.databinding.ProfileFragmentBinding;
 import com.envoy.databinding.SenderFragmentBinding;
 import com.envoy.ui.profile.ProfileViewModel;
+import com.google.android.material.textfield.MaterialAutoCompleteTextView;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -42,9 +44,9 @@ public class SenderFragment extends Fragment {
         binding = SenderFragmentBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
-        final TextView textView = binding.textView8;
-        final Spinner spinnerDeviceNames = binding.spinnerDeviceNames;
-        final Spinner spinnerPrioritize = binding.spinnerPrioritize;
+        final TextView textView = binding.textViewSenderTitle;
+        final MaterialAutoCompleteTextView spinnerDeviceNames = binding.textInputDeviceNames;
+        final MaterialAutoCompleteTextView spinnerPrioritize = binding.spinnerPrioritize;
 
         /**
          * Data adapter for spinner device names

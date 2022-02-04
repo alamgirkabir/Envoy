@@ -37,7 +37,7 @@ public class DeviceFragment extends Fragment {
         binding = DeviceFragmentBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
-        final TextView textView = binding.textView2;
+        final TextView textView = binding.textViewDevice;
         mViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
             @Override
             public void onChanged(@Nullable String s) {

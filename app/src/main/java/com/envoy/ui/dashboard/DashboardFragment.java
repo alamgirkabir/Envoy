@@ -37,7 +37,7 @@ public class DashboardFragment extends Fragment {
         binding = DashboardFragmentBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
-        final TextView textView = binding.textView5;
+        final TextView textView = binding.dashboardTitle;
         mViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
             @Override
             public void onChanged(@Nullable String s) {
