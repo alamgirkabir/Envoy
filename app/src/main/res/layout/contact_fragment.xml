@@ -20,7 +20,8 @@
             android:text="Contacts"
             android:textSize="30sp"
             app:layout_constraintStart_toStartOf="parent"
-            tools:layout_editor_absoluteY="16dp" />
+            tools:layout_editor_absoluteY="16dp"
+            tools:ignore="MissingClass" />
 
         <TextView
             android:id="@+id/DashboarTitle"

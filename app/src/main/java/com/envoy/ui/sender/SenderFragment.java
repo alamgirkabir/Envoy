@@ -77,6 +77,16 @@ public class SenderFragment extends Fragment {
         /**
          * Device names data end
          */
+        /**
+         * Data adapter for Spinner deviceName
+         */
+        List<String>deviceFlagItems = new ArrayList<>();
+        deviceFlagItems.add("Handset Name1");
+        deviceFlagItems.add("Handset Name2");
+
+        /**
+         * Device names data end write code after validating array part
+         */
 
         mViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
             @Override

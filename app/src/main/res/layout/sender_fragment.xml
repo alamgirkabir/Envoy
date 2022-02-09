@@ -319,6 +319,26 @@
             app:layout_constraintTop_toBottomOf="@+id/editTextMessage" />
 
 
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0sp"
+            android:text="Devices"
+            android:textSize="40sp"/>
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_plus" />
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_minus" />
+
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>

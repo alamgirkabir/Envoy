@@ -10,7 +10,11 @@ public class TemplateViewModel extends ViewModel {
 
     public TemplateViewModel() {
         mText = new MutableLiveData<>();
+
         mText.setValue("Templates");
+
+        mText.setValue("");
+
     }
 
     public LiveData<String> getText() {

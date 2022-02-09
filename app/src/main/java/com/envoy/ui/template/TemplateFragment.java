@@ -37,11 +37,15 @@ public class TemplateFragment extends Fragment {
         binding = TemplateFragmentBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
+
         final TextView textView = binding.textViewTemplateTitle;
+
+
+
         mViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
             @Override
             public void onChanged(@Nullable String s) {
-                textView.setText(s);
+
             }
         });
 
